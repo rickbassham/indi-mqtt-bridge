@@ -1,0 +1,36 @@
+{
+  "name": "indi-mqtt-bridge",
+  "version": "1.0.0",
+  "description": "A bridge between INDI and MQTT.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickbassham/indi-mqtt-bridge.git"
+  },
+  "keywords": [
+    "indi"
+  ],
+  "author": "Rick Bassham <brodrick.bassham@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickbassham/indi-mqtt-bridge/issues"
+  },
+  "homepage": "https://github.com/rickbassham/indi-mqtt-bridge#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.2.0",
+    "@semantic-release/npm": "^7.0.9",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "commitizen": "^4.2.2",
+    "semantic-release": "^17.3.0"
+  },
+  "dependencies": {
+    "indi-client": "^1.1.2",
+    "mqtt": "^4.2.6"
+  }
+}
