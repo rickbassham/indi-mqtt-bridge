@@ -27,7 +27,8 @@
     "@semantic-release/npm": "^7.0.9",
     "@semantic-release/release-notes-generator": "^9.0.1",
     "commitizen": "^4.2.2",
-    "semantic-release": "^17.3.0"
+    "semantic-release": "^17.3.0",
+    "winston": "3.10.0"
   },
   "dependencies": {
     "indi-client": "^1.1.2",
